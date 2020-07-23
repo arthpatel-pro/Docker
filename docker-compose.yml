@@ -2,7 +2,8 @@ version: '3'
 services:
   web:
     image: apache
-    build: Dockerfile
+    build: 
+        Dockerfile: Dockerfile
     container_name: apache_web
     restart: always
     ports:
